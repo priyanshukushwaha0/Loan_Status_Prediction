@@ -1,9 +1,1 @@
-Loan Status Prediction using Machine Learning (SVM Model) – Detailed Description
 
-Loan status prediction is an important machine learning application widely used in banks and financial institutions to automate and improve the loan approval process. The goal of this project is to build a system that analyzes customer details and predicts whether a loan application should be approved or rejected using a Support Vector Machine (SVM) model.
-
-The project begins with collecting raw loan applicant data, which typically includes features such as applicant income, loan amount, credit history, marital status, dependents, employment status, and other demographic or financial attributes. Raw data often contains missing values, inconsistencies, and categorical variables that need to be cleaned and transformed. Therefore, data preprocessing plays a crucial role, involving handling missing data, encoding categorical values, feature scaling, and ensuring that all variables are in a suitable format for the SVM model.
-
-After preprocessing, the dataset is divided into training and testing sets using the Train–Test Split technique. The training data is used to train the Support Vector Machine classifier, which learns to identify patterns and boundaries between approved and rejected loan applications. The SVM algorithm is particularly effective for classification tasks because it finds the optimal hyperplane that maximizes the margin between the classes, improving generalization and accuracy.
-
-Once the model is trained, it is evaluated on test data to measure its performance using metrics like accuracy, precision, recall, and confusion matrix. A well-trained SVM model can accurately classify future loan applications based on learned patterns. When new applicant data is provided, the system processes it through the trained SVM model to generate a prediction, indicating whether the loan should be approved or rejected.
