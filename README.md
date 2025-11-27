@@ -1,4 +1,4 @@
-#Loan Status Prediction using Machine Learning (SVM Model) – Detailed Description#
+Loan Status Prediction using Machine Learning (SVM Model) – Detailed Description
 
 Loan status prediction is an important machine learning application widely used in banks and financial institutions to automate and improve the loan approval process. The goal of this project is to build a system that analyzes customer details and predicts whether a loan application should be approved or rejected using a Support Vector Machine (SVM) model.
 
